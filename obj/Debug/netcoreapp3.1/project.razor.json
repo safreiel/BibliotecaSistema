@@ -14412,6 +14412,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\listaDeUsuario.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\listaDeUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
@@ -14424,6 +14434,16 @@
     {
       "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Emprestimo\\Cadastro.cshtml",
       "TargetPath": "Views\\Emprestimo\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\excluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\excluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\RegistrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\RegistrarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14459,6 +14479,16 @@
     {
       "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\editarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\editarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\cadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\cadastroRealizado.cshtml",
       "FileKind": "mvc"
     },
     {

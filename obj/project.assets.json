@@ -850,11 +850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samue\\Downloads\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\samue\\Downloads\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samue\\Downloads\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config"

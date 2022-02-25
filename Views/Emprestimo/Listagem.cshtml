@@ -1,6 +1,8 @@
 @model ICollection<Emprestimo>
 @{
     ViewData["Title"] = "Listagem de Empréstimos";
+
+    string Classe = "";
 }
 
 <div class="row">
@@ -30,14 +32,21 @@
                 <th>Data Devolução</th>
                 <th>Livro</th>
                 <th>Autor</th>
-                <th>Ano</th>
-                <th></th>
                 </tr>
             </thead>
             <tbody>
-                @foreach(Emprestimo e in Model)
+                @foreach(var e in Model)
                 {
-                <tr>
+                    @if((System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao)>0))
+                    {
+                        Classe="text-danger";
+                    }
+                    else
+                    {
+                        Classe="";
+                    }
+                    
+                <tr class="@Classe">
                     <td>@e.Id</td>
                     <td>@e.NomeUsuario</td>
                     <td>@e.DataEmprestimo.ToString("dd/MM/yyyy")</td>
@@ -50,7 +59,6 @@
                 }
             </tbody>
         </table>
-        <p> Nenhum registro encontrado</p>
     </div>
 </div>
 
