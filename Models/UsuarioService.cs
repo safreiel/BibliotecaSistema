@@ -28,7 +28,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext()) 
             {
-                bc.Add(novoUser);
+                bc.usuarios.Add(novoUser);
                 bc.SaveChanges();
             }  
         }
@@ -44,7 +44,7 @@ namespace Biblioteca.Models
                 u.senha = userEditado.senha;
                 u.tipo = userEditado.tipo;
 
-                 bc.SaveChanges();
+                bc.SaveChanges();
             }
         }
 
@@ -52,7 +52,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext()) 
             {
-                bc.usuarios.Remove(bc.usuarios.Find(id));
+                bc.Remove(bc.usuarios.Find(id));
                 bc.SaveChanges();
             }
         }

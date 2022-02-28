@@ -25,6 +25,8 @@ namespace Biblioteca.Models
                 emprestimo.LivroId = e.LivroId;
                 emprestimo.DataEmprestimo = e.DataEmprestimo;
                 emprestimo.DataDevolucao = e.DataDevolucao;
+                emprestimo.Devolvido = e.Devolvido;
+
 
                 bc.SaveChanges();
             }
@@ -46,7 +48,7 @@ namespace Biblioteca.Models
 
                         case "Livro" :
 
-                            List<Livro> LivrosFiltrados = bc.Livros.Where(l => l.Titulo.Contains(filtro.Filtro)).ToList();
+                            List<livros> LivrosFiltrados = bc.Livros.Where(l => l.Titulo.Contains(filtro.Filtro)).ToList();
 
                             List<int>LivroIds = new List<int>();
                             for (int i = 0; i < LivrosFiltrados.Count; i++)

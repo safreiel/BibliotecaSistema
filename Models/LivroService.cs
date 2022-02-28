@@ -6,7 +6,7 @@ namespace Biblioteca.Models
 {
     public class LivroService
     {
-        public void Inserir(Livro l)
+        public void Inserir(livros l)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
@@ -15,11 +15,11 @@ namespace Biblioteca.Models
             }
         }
 
-        public void Atualizar(Livro l)
+        public void Atualizar(livros l)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                Livro livro = bc.Livros.Find(l.Id);
+                livros livro = bc.Livros.Find(l.Id);
                 livro.Autor = l.Autor;
                 livro.Titulo = l.Titulo;
                 livro.Ano = l.Ano;
@@ -28,11 +28,11 @@ namespace Biblioteca.Models
             }
         }
 
-        public ICollection<Livro> ListarTodos(FiltrosLivros filtro = null)
+        public ICollection<livros> ListarTodos(FiltrosLivros filtro = null)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                IQueryable<Livro> query;
+                IQueryable<livros> query;
                 
                 if(filtro != null)
                 {
@@ -63,7 +63,7 @@ namespace Biblioteca.Models
             }
         }
 
-        public ICollection<Livro> ListarDisponiveis()
+        public ICollection<livros> ListarDisponiveis()
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
@@ -76,7 +76,7 @@ namespace Biblioteca.Models
             }
         }
 
-        public Livro ObterPorId(int id)
+        public livros ObterPorId(int id)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {

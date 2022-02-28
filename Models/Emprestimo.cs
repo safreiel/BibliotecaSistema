@@ -12,6 +12,6 @@ namespace Biblioteca.Models
         public bool Devolvido { get; set; }
         
         public int LivroId { get; set; }
-        public Livro Livro { get; set; }
+        public livros Livro { get; set; }
     }
 }

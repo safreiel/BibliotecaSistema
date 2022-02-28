@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using Biblioteca.Models;
+using System.Text;
 using System.Collections.Generic;
 
 

@@ -11,11 +11,11 @@ using Microsoft.AspNetCore.Http;
 
 namespace Biblioteca.Controllers
 {
-    [Route("[controller]")]
     public class UsuarioController : Controller
     {
-        public IActionResult ListaDeUsuario()
+        public IActionResult listaDeUsuario()
         {
+            List<Usuario> listagem = new UsuarioService().Listar();
             Autenticacao.CheckLogin(this);
             Autenticacao.verificaSeUsuarioEAdmin(this);
 
@@ -42,7 +42,7 @@ namespace Biblioteca.Controllers
         {
             Autenticacao.CheckLogin(this);
             Autenticacao.verificaSeUsuarioEAdmin(this);
-
+ 
             return View();
         }
 

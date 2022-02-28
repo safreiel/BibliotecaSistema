@@ -2,12 +2,12 @@
 
 <h1>Registre um usuario</h1>
 
-<form action="RegistrarUsuarios" method="post">
-    <input type="text" name="Nome" id="userNome" placeholder="Nome">
-    <input type="text" name="login" id="userLogin" placeholder="login">
-    <input type="text" name="senha" id="userSenha" placeholder="senha">
+<form asp-action="RegistrarUsuarios" method="post">
+    <input type="text" asp-for="Nome" id="userNome" placeholder="Nome">
+    <input type="text" asp-for="login" id="userLogin" placeholder="login">
+    <input type="text" asp-for="senha" id="userSenha" placeholder="senha">
 
-    <select name="tipo" id="userTipo">
+    <select asp-for="tipo" id="userTipo">
         <option value="=@Usuario.ADMIN">Administrador</option>
         <option value="=@Usuario.PADRAO">Padrão</option>
     </select>

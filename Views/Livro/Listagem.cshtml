@@ -1,4 +1,4 @@
-@model List<Livro>
+@model List<livros>
 @{
     ViewData["Title"] = "Listagem de Livros";
     int FiltroPorPag = Int32.Parse(ViewData["livrosPorPagina"].ToString());
@@ -56,7 +56,7 @@
             </thead>
 
             <tbody>
-                @for(int i = (PaginaAtual-1)+NumLivrosPorPag; i<(NumLivrosPorPag*PaginaAtual<Model.Count?NumLivrosPorPag*PaginaAtual:Model.Count); i++)
+                @for(int i = (PaginaAtual-1)*NumLivrosPorPag; i<(NumLivrosPorPag*PaginaAtual<Model.Count?NumLivrosPorPag*PaginaAtual:Model.Count); i++)
                 {
                 <tr>
                     <td>@Model[i].Id</td>

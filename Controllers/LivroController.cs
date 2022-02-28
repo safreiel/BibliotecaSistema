@@ -13,7 +13,7 @@ namespace Biblioteca.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastro(Livro l)
+        public IActionResult Cadastro(livros l)
         {
             if(!string.IsNullOrEmpty(l.Titulo) && !string.IsNullOrEmpty(l.Autor) && l.Ano !=0)
             {
@@ -59,7 +59,7 @@ namespace Biblioteca.Controllers
         {
             Autenticacao.CheckLogin(this);
             LivroService ls = new LivroService();
-            Livro l = ls.ObterPorId(id);
+            livros l = ls.ObterPorId(id);
             return View(l);
         }
     }
