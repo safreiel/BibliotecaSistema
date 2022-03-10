@@ -1,7 +1,7 @@
-@model ICollection<Emprestimo>
+@model ICollection<Emprestimos>
 @{
     ViewData["Title"] = "Listagem de Empréstimos";
-    int FiltroPorPag = Int32.Parse(ViewData["empPorPagina"].ToString());
+    int FiltroPorPag = Int32.Parse(ViewData["emprestimoPorPagina"].ToString());
     int PaginaAtual = Int32.Parse(ViewData["PaginaAtual"].ToString());
     int NumLivrosPorPag = (Model.Count<FiltroPorPag ? Model.Count : FiltroPorPag);
     int NumTotalDePag;
@@ -48,7 +48,7 @@
 
             @for(int i =1; i<=NumTotalDePag; i++)
             {
-                <span><a href="/Emprestimo/Listagem?PaginaAtual=@i"> @i, </a></span>
+                <span><a href="/Emprestimos/Listagem?PaginaAtual=@i"> @i, </a></span>
             }
         </div>
     </form>
@@ -58,7 +58,7 @@
 <div class="row">
     <div class="col-md-12">
          if(Model.Count > 0){
-        <table > 
+        <table> 
             <thead>
                 <tr><th>Id</th>
                 <th>Usuario</th>
@@ -72,7 +72,7 @@
                @for(int i = (PaginaAtual-1); i<(PaginaAtual<Model.Count? PaginaAtual:Model.Count);i++)
                 {
 
-                      @foreach(Emprestimo e in Model)
+                      @foreach(Emprestimos e in Model)
                       {
                                  @if(System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao)>0)
                         {

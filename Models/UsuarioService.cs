@@ -12,7 +12,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                return bc.usuarios.ToList();
+                return bc.Usuario.ToList();
             }
         }
 
@@ -20,7 +20,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                return bc.usuarios.Find(id);
+                return bc.Usuario.Find(id);
             }
         }
 
@@ -28,7 +28,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext()) 
             {
-                bc.usuarios.Add(novoUser);
+                bc.Usuario.Add(novoUser);
                 bc.SaveChanges();
             }  
         }
@@ -37,7 +37,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext()) 
             {
-                Usuario u = bc.usuarios.Find(userEditado.Id);
+                Usuario u = bc.Usuario.Find(userEditado.Id);
 
                 u.login = userEditado.login;
                 u.Nome = userEditado.Nome;
@@ -52,7 +52,7 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext()) 
             {
-                bc.Remove(bc.usuarios.Find(id));
+                bc.Remove(bc.Usuario.Find(id));
                 bc.SaveChanges();
             }
         }

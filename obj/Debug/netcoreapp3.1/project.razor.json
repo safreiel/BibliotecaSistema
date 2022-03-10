@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Biblioteca.csproj",
+  "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Biblioteca.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,108 +14402,108 @@
   "RootNamespace": "Biblioteca",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
-      "TargetPath": "Views\\Livro\\Listagem.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\NeedAdmin.cshtml",
-      "TargetPath": "Views\\Usuario.cshtml\\NeedAdmin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\listaDeUsuario.cshtml",
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\listaDeUsuario.cshtml",
       "TargetPath": "Views\\Usuario.cshtml\\listaDeUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Emprestimos\\Listagem.cshtml",
+      "TargetPath": "Views\\Emprestimos\\Listagem.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Livro\\_FormCadastro.cshtml",
-      "TargetPath": "Views\\Livro\\_FormCadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Emprestimo\\Cadastro.cshtml",
-      "TargetPath": "Views\\Emprestimo\\Cadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\excluirUsuario.cshtml",
-      "TargetPath": "Views\\Usuario.cshtml\\excluirUsuario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\RegistrarUsuario.cshtml",
-      "TargetPath": "Views\\Usuario.cshtml\\RegistrarUsuario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
-      "TargetPath": "Views\\Livro\\Edicao.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Emprestimo\\Edicao.cshtml",
-      "TargetPath": "Views\\Emprestimo\\Edicao.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Home\\Login.cshtml",
-      "TargetPath": "Views\\Home\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\editarUsuario.cshtml",
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\editarUsuario.cshtml",
       "TargetPath": "Views\\Usuario.cshtml\\editarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\cadastroRealizado.cshtml",
-      "TargetPath": "Views\\Usuario.cshtml\\cadastroRealizado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Livro\\Cadastro.cshtml",
       "TargetPath": "Views\\Livro\\Cadastro.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\samue\\Downloads\\Atividade 2\\Biblioteca\\Views\\Emprestimo\\Listagem.cshtml",
-      "TargetPath": "Views\\Emprestimo\\Listagem.cshtml",
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\RegistrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\RegistrarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\cadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\cadastroRealizado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Livro\\_FormCadastro.cshtml",
+      "TargetPath": "Views\\Livro\\_FormCadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Usuario.cshtml\\excluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuario.cshtml\\excluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
+      "TargetPath": "Views\\Livro\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Home\\Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Emprestimos\\Cadastro.cshtml",
+      "TargetPath": "Views\\Emprestimos\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
+      "TargetPath": "Views\\Livro\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Emprestimos\\Edicao.cshtml",
+      "TargetPath": "Views\\Emprestimos\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\samue\\OneDrive\\CTIW\\UC 7\\Atividade 2\\Biblioteca\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

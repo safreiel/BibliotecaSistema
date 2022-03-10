@@ -6,20 +6,20 @@ namespace Biblioteca.Models
 {
     public class EmprestimoService 
     {
-        public void Inserir(Emprestimo e)
+        public void Inserir(Emprestimos e)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                bc.Emprestimo.Add(e);
+                bc.Emprestimos.Add(e);
                 bc.SaveChanges();
             }
         }
 
-        public void Atualizar(Emprestimo e)
+        public void Atualizar(Emprestimos e)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                Emprestimo emprestimo = bc.Emprestimo.Find(e.Id);
+                Emprestimos emprestimo = bc.Emprestimos.Find(e.Id);
                 emprestimo.NomeUsuario = e.NomeUsuario;
                 emprestimo.Telefone = e.Telefone;
                 emprestimo.LivroId = e.LivroId;
@@ -32,18 +32,18 @@ namespace Biblioteca.Models
             }
         }
 
-        public ICollection<Emprestimo> ListarTodos(FiltrosEmprestimos filtro)
+        public ICollection<Emprestimos> ListarTodos(FiltrosEmprestimos filtro)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                IQueryable<Emprestimo> consulta;
+                IQueryable<Emprestimos> consulta;
 
                 if(filtro!=null)
                 {
                     switch(filtro.TipoFiltro)
                     {
                         case "Usuario" :
-                            consulta = bc.Emprestimo.Where(e => e.NomeUsuario.Contains(filtro.Filtro));
+                            consulta = bc.Emprestimos.Where(e => e.NomeUsuario.Contains(filtro.Filtro));
                         break;
 
                         case "Livro" :
@@ -54,21 +54,21 @@ namespace Biblioteca.Models
                             for (int i = 0; i < LivrosFiltrados.Count; i++)
                             {LivroIds.Add(LivrosFiltrados[i].Id);}
 
-                            consulta = bc.Emprestimo.Where(e => LivroIds.Contains(e.LivroId));
+                            consulta = bc.Emprestimos.Where(e => LivroIds.Contains(e.LivroId));
                             var debug = consulta.ToList();
                             break;
                             
                             default :
-                                consulta = bc.Emprestimo;
+                                consulta = bc.Emprestimos;
                             break;
                     }
                 }
                 else
                 {
-                    consulta = bc.Emprestimo;
+                    consulta = bc.Emprestimos;
                 }
 
-                List<Emprestimo>ListaConsulta = consulta.OrderBy(e => e.DataEmprestimo).ToList();
+                List<Emprestimos>ListaConsulta = consulta.OrderBy(e => e.DataEmprestimo).ToList();
 
                 for (int i = 0; i < ListaConsulta.Count; i++)
                 {
@@ -79,11 +79,11 @@ namespace Biblioteca.Models
             }
         }
 
-        public Emprestimo ObterPorId(int id)
+        public Emprestimos ObterPorId(int id)
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                return bc.Emprestimo.Find(id);
+                return bc.Emprestimos.Find(id);
             }
         }
     }

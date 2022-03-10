@@ -2,7 +2,7 @@ using System;
 
 namespace Biblioteca.Models
 {
-    public class Emprestimo
+    public class Emprestimos
     {
         public int Id { get; set; }
         public DateTime DataEmprestimo { get; set; }
